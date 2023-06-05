@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="ParallelTest(failed)">
+    <classes>
+      <class name="multipleBrowsers.CrossBrowsing">
+        <methods>
+          <include name="openInMultipleBrowsers"/>
+          <include name="runInFirefox"/>
+          <include name="runInEdge"/>
+          <include name="runInChrome"/>
+        </methods>
+      </class> <!-- multipleBrowsers.CrossBrowsing -->
+    </classes>
+  </test> <!-- ParallelTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
