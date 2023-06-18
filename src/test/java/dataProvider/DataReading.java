@@ -33,6 +33,8 @@ public class DataReading {
 		
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//button[@id='login']")).click();
+		
+		driver.close();
 	}
 
 	//@DataProvider(name="UserId-Password")
